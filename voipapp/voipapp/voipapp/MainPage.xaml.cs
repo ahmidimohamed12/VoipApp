@@ -18,8 +18,8 @@ namespace voipapp
         public MainPage()
         {
             InitializeComponent();
-            var t = new TwilioRestClient();
-            var msg = new MessagingResponse();
+            //var t = new TwilioRestClient();
+            //var msg = new MessagingResponse();
         }
     }
 }
