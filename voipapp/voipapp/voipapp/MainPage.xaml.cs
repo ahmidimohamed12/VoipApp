@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Twilio.Clients;
+using Twilio.TwiML;
 
 namespace voipapp
 {
@@ -16,6 +18,8 @@ namespace voipapp
         public MainPage()
         {
             InitializeComponent();
+            var t = new TwilioRestClient();
+            var msg = new MessagingResponse();
         }
     }
 }
